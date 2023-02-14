@@ -53,4 +53,4 @@ while True:
         if up_sert is None:
             tweet_collection.insert_one(tweet)
         else:
-            print("Tweet is found skipping...")
+            print("The tweet is skipped because it already existed.")
